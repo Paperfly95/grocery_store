@@ -11,7 +11,7 @@ function App() {
 
   const [items, setItems] = useState({});
   const [activeItem, setActiveItem] = useState({Früchte: []});
-
+  
 
   useEffect(() => {
     fetch("../items.json").then(response => response.json()).then(data => {

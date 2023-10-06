@@ -5,10 +5,10 @@ import Input from "../input/input";
 const handleInputValue = (state, action) => {
     if(action.type == "add") {
         action.ref.current.value = state + 1;
-        console.log(action.ref)
         return state + 1;
     } else {
-        return state - 1;
+        action.ref.current.value = state <= 1 ? state : state - 1;
+        return state <= 1 ? state : state - 1;
     }
 }
 
@@ -33,7 +33,7 @@ const InputItem = props => {
             defaultValue: inputValue
         }} />
         { props.activateButtons && 
-            <Button content={"-"} handler={() => dispatchInputValue({type: "substract"})}/>
+            <Button content={"-"} handler={() => dispatchInputValue({type: "substract", ref: inputRef})}/>
         }
         <Input input={{
             type: 'submit',
