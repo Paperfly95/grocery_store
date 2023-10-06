@@ -1,4 +1,5 @@
 import React from "react";
+import InputItem from "../inputItem/inputItem";
 
 const Card = props => {
     return (
@@ -6,8 +7,7 @@ const Card = props => {
             <img src="..." className="card-img-top" alt="..." />
             <div className="card-body">
                 <h5 className="card-title">{props.title}</h5>
-                <p className="card-text">{props.text}</p>
-                <a href="#" className="btn btn-primary">{props.btnText}</a>
+                <InputItem activateButtons={true}></InputItem>
             </div>       
         </div>
     )
