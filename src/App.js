@@ -11,7 +11,7 @@ function App() {
 
   const [items, setItems] = useState({});
   const [activeItem, setActiveItem] = useState({Früchte: []});
-  
+
 
   useEffect(() => {
     fetch("../items.json").then(response => response.json()).then(data => {
@@ -38,11 +38,15 @@ function App() {
           </ul>
         </div>
         <div className="col-9 bg-secondary d-flex flex-wrap gap-2 p-2">
-          { activeItem[Object.keys(activeItem)].map(el => {
-            return (
-              <Card title={el.name} btnText={el.unit}></Card>
-            )
-          })}
+          <div className="container m-0">
+            <div className="row">
+            { activeItem[Object.keys(activeItem)].map(el => {
+              return (
+                <Card title={el.name} keyName={el.id}></Card>
+              )
+            })}
+            </div>
+          </div>
         </div>
       </Row>
       <Shoppingcart/>
