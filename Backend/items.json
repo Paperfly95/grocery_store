@@ -1,0 +1,576 @@
+{
+  "items": [
+    {
+      "Früchte": [
+        {
+          "id": 1,
+          "name": "Apfel",
+          "unit": "Stück"
+        },
+        {
+          "id": 2,
+          "name": "Banane",
+          "unit": "Stück"
+        },
+        {
+          "id": 3,
+          "name": "Orange",
+          "unit": "Stück"
+        },
+        {
+          "id": 4,
+          "name": "Erdbeere",
+          "unit": "Schale"
+        },
+        {
+          "id": 5,
+          "name": "Kiwi",
+          "unit": "Stück"
+        },
+        {
+          "id": 6,
+          "name": "Ananas",
+          "unit": "Stück"
+        },
+        {
+          "id": 7,
+          "name": "Mango",
+          "unit": "Stück"
+        },
+        {
+          "id": 8,
+          "name": "Wassermelone",
+          "unit": "Stück"
+        },
+        {
+          "id": 9,
+          "name": "Birne",
+          "unit": "Stück"
+        },
+        {
+          "id": 10,
+          "name": "Himbeere",
+          "unit": "Schale"
+        },
+        {
+          "id": 11,
+          "name": "Blaubeere",
+          "unit": "Schale"
+        },
+        {
+          "id": 12,
+          "name": "Pfirsich",
+          "unit": "Stück"
+        },
+        {
+          "id": 13,
+          "name": "Zitrone",
+          "unit": "Stück"
+        },
+        {
+          "id": 14,
+          "name": "Trauben",
+          "unit": "Schale"
+        },
+        {
+          "id": 15,
+          "name": "Kirschen",
+          "unit": "Schale"
+        },
+        {
+          "id": 16,
+          "name": "Melone",
+          "unit": "Stück"
+        },
+        {
+          "id": 17,
+          "name": "Himbeere",
+          "unit": "Schale"
+        },
+        {
+          "id": 18,
+          "name": "Mandarine",
+          "unit": "Stück"
+        },
+        {
+          "id": 19,
+          "name": "Pflaume",
+          "unit": "Stück"
+        },
+        {
+          "id": 20,
+          "name": "Aprikose",
+          "unit": "Stück"
+        },
+        {
+          "id": 21,
+          "name": "Nektarine",
+          "unit": "Stück"
+        },
+        {
+          "id": 22,
+          "name": "Himbeere",
+          "unit": "Schale"
+        },
+        {
+          "id": 23,
+          "name": "Brombeere",
+          "unit": "Schale"
+        },
+        {
+          "id": 24,
+          "name": "Heidelbeere",
+          "unit": "Schale"
+        },
+        {
+          "id": 25,
+          "name": "Mango",
+          "unit": "Stück"
+        },
+        {
+          "id": 26,
+          "name": "Grapefruit",
+          "unit": "Stück"
+        }
+      ]
+    },
+    {
+      "Gemüse": [
+        {
+          "id": 27,
+          "name": "Tomate",
+          "unit": "Stück"
+        },
+        {
+          "id": 28,
+          "name": "Gurke",
+          "unit": "Stück"
+        },
+        {
+          "id": 29,
+          "name": "Karotte",
+          "unit": "Stück"
+        },
+        {
+          "id": 30,
+          "name": "Spinat",
+          "unit": "Bündel"
+        },
+        {
+          "id": 31,
+          "name": "Brokkoli",
+          "unit": "Stück"
+        },
+        {
+          "id": 32,
+          "name": "Blumenkohl",
+          "unit": "Stück"
+        },
+        {
+          "id": 33,
+          "name": "Kartoffel",
+          "unit": "Kilogramm"
+        },
+        {
+          "id": 34,
+          "name": "Zwiebel",
+          "unit": "Stück"
+        },
+        {
+          "id": 35,
+          "name": "Paprika",
+          "unit": "Stück"
+        },
+        {
+          "id": 36,
+          "name": "Erbse",
+          "unit": "Packung"
+        },
+        {
+          "id": 37,
+          "name": "Mais",
+          "unit": "Dose"
+        },
+        {
+          "id": 38,
+          "name": "Spargel",
+          "unit": "Bündel"
+        },
+        {
+          "id": 39,
+          "name": "Radieschen",
+          "unit": "Bündel"
+        },
+        {
+          "id": 40,
+          "name": "Zucchini",
+          "unit": "Stück"
+        },
+        {
+          "id": 41,
+          "name": "Kürbis",
+          "unit": "Stück"
+        },
+        {
+          "id": 42,
+          "name": "Sellerie",
+          "unit": "Stück"
+        },
+        {
+          "id": 43,
+          "name": "Fenchel",
+          "unit": "Stück"
+        },
+        {
+          "id": 44,
+          "name": "Rote Bete",
+          "unit": "Stück"
+        },
+        {
+          "id": 45,
+          "name": "Champignons",
+          "unit": "Packung"
+        },
+        {
+          "id": 46,
+          "name": "Lauch",
+          "unit": "Stange"
+        },
+        {
+          "id": 47,
+          "name": "Rettich",
+          "unit": "Stück"
+        },
+        {
+          "id": 48,
+          "name": "Chinakohl",
+          "unit": "Kopf"
+        },
+        {
+          "id": 49,
+          "name": "Grünkohl",
+          "unit": "Bündel"
+        },
+        {
+          "id": 50,
+          "name": "Artischocke",
+          "unit": "Stück"
+        },
+        {
+          "id": 51,
+          "name": "Paprika",
+          "unit": "Stück"
+        },
+        {
+          "id": 52,
+          "name": "Blumenkohl",
+          "unit": "Stück"
+        },
+        {
+          "id": 53,
+          "name": "Süßkartoffel",
+          "unit": "Stück"
+        },
+        {
+          "id": 54,
+          "name": "Chili",
+          "unit": "Stück"
+        },
+        {
+          "id": 55,
+          "name": "Radieschen",
+          "unit": "Bündel"
+        }
+      ]
+    },
+    {
+      "Gewürze": [
+        {
+          "id": 56,
+          "name": "Salz",
+          "unit": "Packung"
+        },
+        {
+          "id": 57,
+          "name": "Pfeffer",
+          "unit": "Packung"
+        },
+        {
+          "id": 58,
+          "name": "Knoblauchpulver",
+          "unit": "Packung"
+        },
+        {
+          "id": 59,
+          "name": "Paprikapulver",
+          "unit": "Packung"
+        },
+        {
+          "id": 60,
+          "name": "Currypulver",
+          "unit": "Packung"
+        },
+        {
+          "id": 61,
+          "name": "Basilikum",
+          "unit": "Packung"
+        },
+        {
+          "id": 62,
+          "name": "Oregano",
+          "unit": "Packung"
+        },
+        {
+          "id": 63,
+          "name": "Thymian",
+          "unit": "Packung"
+        },
+        {
+          "id": 64,
+          "name": "Rosmarin",
+          "unit": "Packung"
+        },
+        {
+          "id": 65,
+          "name": "Cayennepfeffer",
+          "unit": "Packung"
+        },
+        {
+          "id": 66,
+          "name": "Kurkuma",
+          "unit": "Packung"
+        },
+        {
+          "id": 67,
+          "name": "Majoran",
+          "unit": "Packung"
+        },
+        {
+          "id": 68,
+          "name": "Kreuzkümmel",
+          "unit": "Packung"
+        },
+        {
+          "id": 69,
+          "name": "Dill",
+          "unit": "Packung"
+        },
+        {
+          "id": 70,
+          "name": "Koriander",
+          "unit": "Packung"
+        },
+        {
+          "id": 71,
+          "name": "Ingwer",
+          "unit": "Stück"
+        },
+        {
+          "id": 72,
+          "name": "Vanillezucker",
+          "unit": "Packung"
+        },
+        {
+          "id": 73,
+          "name": "Muskatnuss",
+          "unit": "Packung"
+        },
+        {
+          "id": 74,
+          "name": "Fenchelsamen",
+          "unit": "Packung"
+        },
+        {
+          "id": 75,
+          "name": "Chilipulver",
+          "unit": "Packung"
+        },
+        {
+          "id": 76,
+          "name": "Senf",
+          "unit": "Glas"
+        },
+        {
+          "id": 77,
+          "name": "Petersilie",
+          "unit": "Packung"
+        },
+        {
+          "id": 78,
+          "name": "Kerbel",
+          "unit": "Packung"
+        },
+        {
+          "id": 79,
+          "name": "Liebstöckel",
+          "unit": "Packung"
+        },
+        {
+          "id": 80,
+          "name": "Zimt",
+          "unit": "Packung"
+        },
+        {
+          "id": 81,
+          "name": "Kardamom",
+          "unit": "Packung"
+        },
+        {
+          "id": 82,
+          "name": "Bockshornklee",
+          "unit": "Packung"
+        },
+        {
+          "id": 83,
+          "name": "Kreuzkümmel",
+          "unit": "Packung"
+        }
+      ]
+    },
+    {
+      "Trockenprodukte": [
+        {
+          "id": 84,
+          "name": "Haferflocken",
+          "unit": "Packung"
+        },
+        {
+          "id": 85,
+          "name": "Kakao",
+          "unit": "Packung"
+        },
+        {
+          "id": 86,
+          "name": "Mehl",
+          "unit": "Packung"
+        },
+        {
+          "id": 87,
+          "name": "Kokosraspeln",
+          "unit": "Packung"
+        },
+        {
+          "id": 88,
+          "name": "Speisestärke",
+          "unit": "Packung"
+        },
+        {
+          "id": 89,
+          "name": "Reis",
+          "unit": "Packung"
+        },
+        {
+          "id": 90,
+          "name": "Nudeln",
+          "unit": "Packung"
+        },
+        {
+          "id": 91,
+          "name": "Linsen",
+          "unit": "Packung"
+        },
+        {
+          "id": 92,
+          "name": "Quinoa",
+          "unit": "Packung"
+        },
+        {
+          "id": 93,
+          "name": "Brot",
+          "unit": "Laib"
+        },
+        {
+          "id": 94,
+          "name": "Zucker",
+          "unit": "Packung"
+        },
+        {
+          "id": 95,
+          "name": "Salzstangen",
+          "unit": "Packung"
+        },
+        {
+          "id": 96,
+          "name": "Tee",
+          "unit": "Packung"
+        },
+        {
+          "id": 97,
+          "name": "Kaffee",
+          "unit": "Packung"
+        },
+        {
+          "id": 98,
+          "name": "Nussmischung",
+          "unit": "Packung"
+        },
+        {
+          "id": 99,
+          "name": "Müsli",
+          "unit": "Packung"
+        },
+        {
+          "id": 100,
+          "name": "Cornflakes",
+          "unit": "Packung"
+        },
+        {
+          "id": 101,
+          "name": "Puddingpulver",
+          "unit": "Packung"
+        },
+        {
+          "id": 102,
+          "name": "Kartoffelpüree",
+          "unit": "Packung"
+        },
+        {
+          "id": 103,
+          "name": "Couscous",
+          "unit": "Packung"
+        },
+        {
+          "id": 104,
+          "name": "Grieß",
+          "unit": "Packung"
+        },
+        {
+          "id": 105,
+          "name": "Hefewürfel",
+          "unit": "Packung"
+        },
+        {
+          "id": 106,
+          "name": "Backpulver",
+          "unit": "Packung"
+        },
+        {
+          "id": 107,
+          "name": "Kakaopulver",
+          "unit": "Packung"
+        },
+        {
+          "id": 108,
+          "name": "Vanillezucker",
+          "unit": "Packung"
+        },
+        {
+          "id": 109,
+          "name": "Sesam",
+          "unit": "Packung"
+        },
+        {
+          "id": 110,
+          "name": "Chiasamen",
+          "unit": "Packung"
+        },
+        {
+          "id": 111,
+          "name": "Leinsamen",
+          "unit": "Packung"
+        }
+      ]
+    }
+  ],
+  "users": []    
+}
