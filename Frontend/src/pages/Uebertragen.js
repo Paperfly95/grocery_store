@@ -1,12 +1,12 @@
 import React from 'react'
-import ShoppingCart from './ShoppingCart'
 
 export default function Uebertragen() {
   return (
     <>
-    <h1>Folgende Artikel befinden sich in Ihrer Einkaufsliste: </h1>
-    <ShoppingCart />
-    <button className="btn btn-primary">Übertragen</button>
+    <div className="d-flex flex-column w-50">
+    <h1>Folgende Artikel befinden sich nun bereit zum übertragen:</h1>
+    <button className="btn btn-primary">Übertragung starten</button>
+    </div>
     </>
   )
 }

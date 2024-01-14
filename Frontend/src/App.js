@@ -5,6 +5,7 @@ import { Product ,loader as productLoader } from './pages/Product';
 import { Home } from './pages/Home';
 import { ProductDetail, loader as productDetailsLoader, action as addProductAction } from './pages/ProductDetail';
 import Uebertragen from './pages/Uebertragen';
+import Abrufen from './pages/Abrufen';
 
 
 
@@ -23,6 +24,10 @@ function App() {
         {
           path: "/checkout",
           element: <Uebertragen />
+        },
+        {
+          path: "/abrufen",
+          element: <Abrufen />
         },
         {
           path: "/products",

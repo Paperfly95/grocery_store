@@ -21,6 +21,10 @@ export const MainNavigation = () => {
                     <li className="nav-item">
                         <Link className="nav-link my-3" to="/checkout">Übertragen</Link>
                     </li>
+    	            <li className="nav-item">
+                        <Link className="nav-link my-3" to="/abrufen">Abrufen</Link>
+                    </li>
+                                            
 
                     { items.map(item => {
                         return (

@@ -1,16 +1,36 @@
-import React from 'react'
+import React, { useState, createContext, useEffect } from 'react'
 import ProductsList from '../components/ProductsList'
 import { useRouteLoaderData } from "react-router-dom"
 import { useActionData } from 'react-router-dom'
 import { json } from 'react-router-dom'
 
+export const OutputContext = createContext();
+
 export const ProductDetail = () => {
   const { item } = useRouteLoaderData("product-loader")
   const data = useActionData();
+  const [output, setOutput] = useState("");
+
+  const outputTimeout = () => {
+
+    setOutput("");
+  }
+
+  useEffect(() => {
+    
+    const timeOut = setTimeout(() => setOutput(""), 5000);
+    
+    return () => {
+      clearTimeout(timeOut);
+    }
+  }, [output])
 
   return (
     <>
-        <ProductsList subProducts={Object.values(item)[0]}/>
+        { output && <div className={`banner`}>{output}</div> }
+        <OutputContext.Provider value={(output) => setOutput(output)}>
+          <ProductsList subProducts={Object.values(item)[0]}/>
+        </OutputContext.Provider>
     </>
 
   )
