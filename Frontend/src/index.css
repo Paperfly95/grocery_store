@@ -20,7 +20,7 @@ code {
   top: 2%;
   right: 2%;
   opacity: 100%;
-  animation: bannerAnimation .5s ease-in;
+  animation: bannerAnimation 5s ease-in;
 }
 
 @keyframes bannerAnimation {
@@ -29,7 +29,11 @@ code {
     opacity: 0%;
   }
 
-  100% {
+  10%, 25%, 50%, 75% {
     opacity: 100%;
-  }  
+  } 
+  
+  100% {
+    opacity: 0%;
+  }
 }

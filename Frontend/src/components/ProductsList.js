@@ -6,7 +6,7 @@ export default function ProductsList({ subProducts, outputHandler }) {
     <>
         { subProducts.map(product => {
             return (
-                <Card outputHandler={outputHandler} subProduct={true} key={product.id} title={product.name} />
+                <Card outputHandler={outputHandler} activateAddItem={true} subProduct={true} key={product.id} title={product.name} />
             )
             })
         }
