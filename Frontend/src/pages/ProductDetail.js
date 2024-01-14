@@ -27,10 +27,11 @@ export async function loader({ request, params}) {
 export async function action({request, params}) {
   const id = params.id;
   const data = await request.formData();
-  console.log(id, data)
+  console.log(data)
 
   const enteredValue = {
-    value: data.get('value')
+    item: data.get('item'),
+    amount: data.get('value')
   }
 
   const response = await fetch("http://localhost:8080/items/" + id, {
@@ -44,5 +45,4 @@ export async function action({request, params}) {
   if(!response.ok) {
     throw json({message: "Could not save event"}, { status: 500 })
   }
-  console.log(response, enteredValue);
 }

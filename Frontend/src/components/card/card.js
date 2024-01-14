@@ -9,8 +9,7 @@ const Card = props => {
             { /*<img src="..." className="card-img-top" alt="..." /> */ }
             <div className="card-body">
                 { props.subProduct && <h5 className="card-title">{props.title}</h5> }
-                { props.subProduct && <InputItem activateButtons={true}></InputItem> }
-                {console.log(!props.subProduct)}
+                { props.subProduct && <InputItem item={props.title} activateButtons={true}></InputItem> }
                 { !props.subProduct && <Link className="btn btn-primary" to={props.href}>Zu den {props.title}n</Link> }
             </div>       
         </div>
