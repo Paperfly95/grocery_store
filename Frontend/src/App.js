@@ -6,6 +6,7 @@ import { Home } from './pages/Home';
 import { ProductDetail, loader as productDetailsLoader, action as addProductAction } from './pages/ProductDetail';
 import Uebertragen from './pages/Uebertragen';
 import Abrufen from './pages/Abrufen';
+import { loader as basketLoader } from "./pages/Abrufen";
 
 
 
@@ -27,7 +28,8 @@ function App() {
         },
         {
           path: "/abrufen",
-          element: <Abrufen />
+          element: <Abrufen />,
+          loader: basketLoader
         },
         {
           path: "/products",
